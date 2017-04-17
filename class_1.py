@@ -4,6 +4,8 @@ class vehicle:
 	wheels = 4
 	def __init__(this):
 		print "vehicle"
+	def func(this,a):
+		print a*a
 
 class car(vehicle): # inheritance
 	def __init__(this):
@@ -15,4 +17,5 @@ ecar = car() # calls constructor and creats class objects
 print ecar.speed
 print ecar.calcV(20)
 print ecar.wheels
+ecar.func(23)
 
