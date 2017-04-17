@@ -1,6 +1,6 @@
 #!/bin/bash
 
 #python temp.py
-python exc_1.py
+python gui_1.py
 
 
