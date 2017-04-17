@@ -1,4 +1,6 @@
 #!/bin/bash
 
-python temp.py
+#python temp.py
+python temp_1.py
+
 
