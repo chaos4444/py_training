@@ -85,9 +85,9 @@ def exists_in_dict(d,key):
 			result = True
 	return result
 
-exitv = False
+exitv = True #tmp False
 while not exitv :
-	inp = raw_input("Enter user name: ")
+	inp =  raw_input("Enter user name: ")
 #	if exists_in_dict(dict,inp):
 	if inp in dict:
 		print "Tricky one :-). The password for the " + inp + " is: " + dict[inp]
@@ -96,4 +96,26 @@ while not exitv :
 		if inp == 'q':
 			print "exiting"
 			break
+print "\n# modules" 
+# ========
+# modules
+
+import random as rnd
+# or:
+from random import randint
+#or for all modules from random:
+# from random import *
+
+print rnd.randint(1,100000)
+print randint(0,2)
+
+# import own modules
+# module1.py has to exist in working dir
+import module1 as m1
+
+aa = [1,2,3,4,5,6,7,8,9]
+
+print m1.sumvm(aa)
+
+m1.pvm(aa)
 
