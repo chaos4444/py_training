@@ -1,6 +1,6 @@
 #!/bin/bash
 
 #python temp.py
-python temp_0.py
+python class_1.py
 
 
